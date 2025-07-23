@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.video-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.prediction {
+  margin-top: 70px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  display: inline-block;
+  
+  display: flex; 
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+} 
